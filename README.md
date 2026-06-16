@@ -2,6 +2,8 @@
 
 > Buy me a coffee so I don't fall asleep — a tiny tip jar built on **Stellar testnet** with **Freighter**.
 
+**🚀 Live demo:** https://stellar-brew.vercel.app/
+
 A static donation page where anyone can connect their Freighter wallet, pick (or type) a tip amount, and send XLM to the owner's address on the Stellar testnet. The page shows a QR code of the owner's address, the connected wallet's balance, and clear transaction feedback (success state + tx hash + explorer link, or a readable error).
 
 This project is my **Level 1 — White Belt** submission for the **Stellar Journey to Mastery** class.
