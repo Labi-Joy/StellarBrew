@@ -22,11 +22,9 @@ This project is my **Level 1 — White Belt** submission for the **Stellar Journ
 
 ## Screenshots
 
-> Add your screenshots into a `docs/` folder and they'll show up below.
-
 | Wallet connected | Balance displayed | Successful transaction |
 |---|---|---|
-| ![connected](docs/01-connected.png) | ![balance](docs/02-balance.png) | ![tx success](docs/03-tx-success.png) |
+| ![connected](docs/connected.png) | ![balance](docs/balance.png) | ![tx success](docs/tx-success.png) |
 
 ---
 
