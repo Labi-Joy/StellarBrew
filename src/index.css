@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body, #root {
+    height: 100%;
+  }
+  body {
+    @apply bg-brew-bg text-brew-text font-sans antialiased;
+    background-image:
+      radial-gradient(60% 50% at 20% 0%, rgba(124, 58, 237, .14) 0%, transparent 60%),
+      radial-gradient(40% 35% at 95% 10%, rgba(245, 165, 36, .12) 0%, transparent 65%);
+    background-attachment: fixed;
+  }
+}
+
+@layer components {
+  .panel {
+    @apply bg-brew-panel/80 border border-brew-line rounded-2xl backdrop-blur;
+  }
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 font-medium transition;
+  }
+  .btn-primary {
+    @apply btn bg-brew-accent text-black hover:bg-amber-400 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  .btn-ghost {
+    @apply btn bg-brew-line/60 text-brew-text hover:bg-brew-line border border-brew-line;
+  }
+  .chip {
+    @apply rounded-xl border border-brew-line bg-brew-panel/60 px-3 py-2 text-sm hover:border-brew-accent/60 transition;
+  }
+  .chip-active {
+    @apply border-brew-accent bg-brew-accent/10 text-brew-accent;
+  }
+  .input {
+    @apply w-full rounded-xl bg-brew-bg border border-brew-line px-3 py-2.5 outline-none focus:border-brew-accent/60;
+  }
+}
